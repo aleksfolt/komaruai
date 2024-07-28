@@ -10,9 +10,6 @@ import config
 import os 
 
 
-os.environ["http_proxy"] = 'http://localhost:1080'
-os.environ["https_proxy"] = 'http://localhost:1080'
-
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
